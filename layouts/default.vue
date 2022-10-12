@@ -1,7 +1,13 @@
-<script lang="ts">
-</script>
 <template>
     <div>
+        <NavbarVue />
         <slot />
     </div>
 </template>
+
+<script setup lang="ts">
+    import NavbarVue from '@/components/Navbar.vue';
+</script>
+
+<style>
+</style>

@@ -1,7 +1,7 @@
 <template>
     <span>
         <WorkPageVue 
-        img="https://wallpaper.dog/large/274035.jpg"
+        img="/cirquizz.png"
         :title="$t('cirquizz.name')" 
         :description="$t('cirquizz.description')"
         stack="Mobile App (React Native)"

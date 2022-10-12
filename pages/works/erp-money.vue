@@ -1,7 +1,7 @@
 <template>
     <span>
         <WorkPageVue 
-        img="https://wallpaper.dog/large/274035.jpg"
+        img="/money.png"
         :title="$t('erp-money.name')" 
         :description="$t('erp-money.description')" 
         stack="Front-end (Nuxt 2), Back-end (Express)"

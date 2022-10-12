@@ -1,7 +1,7 @@
 <template>
     <span>
         <WorkPageVue 
-            img="https://wallpaper.dog/large/274035.jpg"
+            img="/kon.png"
             :title="$t('king-of-namek.name')" 
             :description="$t('king-of-namek.description')" 
             stack=".Net, Threads, Asynchrone, Socket"

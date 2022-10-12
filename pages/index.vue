@@ -5,7 +5,9 @@
 </script>
 
 <template>
-  <!-- <div>
+  <main>
+    home
+      <!-- <div>
     <section class="section is-medium has-background-primary">
       <div class="container">
         <div class="columns is-vcentered">
@@ -77,5 +79,7 @@
     </section>
     <FooterVue />
   </div> -->
+  </main>
+
 </template>
 

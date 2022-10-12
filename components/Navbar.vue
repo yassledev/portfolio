@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar is-black mt-2" role="navigation" aria-label="main navigation" style="position: fixed; width: 100%; background-color: transparent">
+  <nav class="navbar is-black pt-2 pb-2" role="navigation" aria-label="main navigation" >
     <div class="container">
     
     <div class="navbar-menu">
@@ -27,6 +27,13 @@
 </script>
 
 <style lang="scss">
+  .navbar {
+    position: fixed; 
+    width: 100%; 
+    background-color: #0000003b !important;
+    color: white;
+
+  }
   .router-link-active {
     background-color: transparent !important;
     border-bottom: 2px solid white !important;

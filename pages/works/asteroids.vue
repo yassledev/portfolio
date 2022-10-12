@@ -1,7 +1,7 @@
 <template>
     <span>
         <WorkPageVue 
-        img="https://wallpaper.dog/large/274035.jpg"
+        img="/asteroids.gif"
         :title="$t('asteroids.name')" 
         :description="$t('asteroids.description')" 
         stack="C, SDL, CMake"
