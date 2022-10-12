@@ -99,16 +99,16 @@
 </script>
 
 <style lang="scss">
-/* Hide scrollbar for Chrome, Safari and Opera */
-    body::-webkit-scrollbar {
-        display: none;
-    }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    // body::-webkit-scrollbar {
+    //     display: none;
+    // }
 
-    /* Hide scrollbar for IE, Edge and Firefox */
-    body {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
+    // /* Hide scrollbar for IE, Edge and Firefox */
+    // body {
+    //     -ms-overflow-style: none;  /* IE and Edge */
+    //     scrollbar-width: none;  /* Firefox */
+    // }
     .bg-img {
         pointer-events: none;
         position: absolute;
