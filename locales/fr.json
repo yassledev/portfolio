@@ -1,0 +1,22 @@
+{
+    "works": {
+        "links": "Links",
+        "tools": "Tools"
+    },
+    "cirquizz": "Cirquizz mais en EN",
+    "cirquiz": {
+        "description": 
+        [
+            "Cirquizz is a mobile orienteering app where you have to answer questions to get to the next step of a circuit to discover a city.",
+            "Authentication 🔐",
+            "Consult on a map the circuits near me 🗺️",
+            "Choose a circuit and start playing",
+            "Checking with the geolocation of its position towards a stage of the circuit",
+            "Different types of movement towards the point",
+            "Hot/cold gauge -- near/far 🌡️",
+            "Compass 🧭",
+            "Point on map 📍",
+            "Description of the next point 📄"
+        ]
+    }
+}

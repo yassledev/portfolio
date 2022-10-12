@@ -1,0 +1,38 @@
+// Nimbus Sans L
+@font-face {
+    font-family: 'Nimbus';
+    src: url('../fonts/NimbusSanL-Reg.otf') format("opentype");
+}
+@font-face {
+    font-family: 'Nibmus';
+    src: url('../fonts/NimbusSanL-Bol.otf') format("opentype");
+    font-weight: bold;
+}
+
+// Saol Display
+@font-face {
+    font-family: 'Saol Display';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src:
+      url('../fonts/SaolDisplay-Regular.woff2') format('woff2'),
+      url('../fonts/SaolDisplay-Regular.woff') format('woff');
+}
+
+// Sulphur
+@font-face {
+    font-family: 'Sulphur';
+    src: url('../fonts/SulphurPoint-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Sulphur';
+    src: url('../fonts/SulphurPoint-Bold.ttf') format("truetype");
+    font-weight: bold;
+}
+
+// Akaya
+@font-face {
+    font-family: "Akaya";
+    src: url("../fonts/AkayaTelivigala-Regular.ttf") format("truetype");
+}
