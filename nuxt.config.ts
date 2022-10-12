@@ -8,19 +8,18 @@ export default defineNuxtConfig({
         // SCSS file in the project
         '@/assets/scss/main.scss'
     ],
-
-    // SEO
-    head: {
-        title: "YassLeDev website",
-        meta: [
-            { charset: 'utf-8' },
-            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-            {
-              hid: 'yassledev',
-              name: 'description',
-              content: 'my website description'
-            }
-        ], 
+    app: {
+        head: {
+            title: "YassLeDev Portfolio",
+            charset: 'utf-8',
+            viewport: 'width=device-width, initial-scale=1',
+            meta: [
+                {
+                    name: 'description',
+                    content: 'YassLeDev Portfolio'
+                }
+            ], 
+        },
     },
     typescript: {
         shim: false
