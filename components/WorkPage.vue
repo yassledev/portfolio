@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-fullheight is-black">
+    <!-- <section class="hero is-fullheight is-black">
         <img class="bg-img" :src="props.img" alt="">
         <div class="container is-fluid" style="height: 30vh; display: flex; justify-content: center; align-items: center;">
             <div class="column is-4-desktop is-12 ml-auto">
@@ -29,73 +29,73 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </template>
 
 <script setup lang="ts">
-    import 'vue3-carousel/dist/carousel.css'
-    import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+    // import 'vue3-carousel/dist/carousel.css'
+    // import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
-    const tools = {
-        "js": "js-icon.svg",
-        "docker": "docker.svg",
-        "nodejs": "nodejs.svg",
-        "mongodb": "mongodb.svg",
-        "react-native": "react-native.svg",
-        "bootstrap": "bootstrap.svg",
-        "heroku": "heroku.svg",
-        "nuxt": "nuxt.svg",
-        "vue": "vue.svg",
-        "express": "express.svg",
-        "c#": "c_sharp.svg",
-        "c": "c.svg"
-    }
-    const info = {
-        "js": "Javascript",
-        "docker": "Docker",
-        "nodejs": "NodeJS",
-        "mongodb": "MongoDB",
-        "react-native": "React Native",
-        "c#": "C#",
-        "c": "C",
-        "heroku": "Heroku",
-        "nuxt": "Nuxt",
-        "vue": "Vue",
-        "express": "Express",
-        "bootstrap": "Bootstrap"
-    }
-    const props = defineProps({
-        img: {
-            type: String,
-            required: true
-        },
-        title: {
-            type: String,
-            required: true
-        },
-        description: {
-            type: String,
-            required: true
-        },
-        stack: {
-            type: String,
-            default: ""
-        },
-        tools: {
-            type: Array<String>,
-            default: []
-        },
-        links: {
-            type: Array,
-            default: []
-        },
-        github: {
-            type: String,
-            default: ""
-        }
-    });
+    // const tools = {
+    //     "js": "js-icon.svg",
+    //     "docker": "docker.svg",
+    //     "nodejs": "nodejs.svg",
+    //     "mongodb": "mongodb.svg",
+    //     "react-native": "react-native.svg",
+    //     "bootstrap": "bootstrap.svg",
+    //     "heroku": "heroku.svg",
+    //     "nuxt": "nuxt.svg",
+    //     "vue": "vue.svg",
+    //     "express": "express.svg",
+    //     "c#": "c_sharp.svg",
+    //     "c": "c.svg"
+    // }
+    // const info = {
+    //     "js": "Javascript",
+    //     "docker": "Docker",
+    //     "nodejs": "NodeJS",
+    //     "mongodb": "MongoDB",
+    //     "react-native": "React Native",
+    //     "c#": "C#",
+    //     "c": "C",
+    //     "heroku": "Heroku",
+    //     "nuxt": "Nuxt",
+    //     "vue": "Vue",
+    //     "express": "Express",
+    //     "bootstrap": "Bootstrap"
+    // }
+    // const props = defineProps({
+    //     img: {
+    //         type: String,
+    //         required: true
+    //     },
+    //     title: {
+    //         type: String,
+    //         required: true
+    //     },
+    //     description: {
+    //         type: String,
+    //         required: true
+    //     },
+    //     stack: {
+    //         type: String,
+    //         default: ""
+    //     },
+    //     tools: {
+    //         type: Array<String>,
+    //         default: []
+    //     },
+    //     links: {
+    //         type: Array,
+    //         default: []
+    //     },
+    //     github: {
+    //         type: String,
+    //         default: ""
+    //     }
+    // });
 
-    function joinDescription(){ return props.description}
+    // function joinDescription(){ return props.description}
 </script>
 
 <style lang="scss">
@@ -109,12 +109,12 @@
     //     -ms-overflow-style: none;  /* IE and Edge */
     //     scrollbar-width: none;  /* Firefox */
     // }
-    .bg-img {
-        pointer-events: none;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: .6;
-    }
+    // .bg-img {
+    //     pointer-events: none;
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: cover;
+    //     opacity: .6;
+    // }
 </style>
